@@ -4,10 +4,12 @@ a = 0
 b = 1
 
 x = int(input(" Enter the Number = "))
-
+print (a)
+print (b)
 for i in range ( 1 , x+1 ) :
-    c = a + b
+    print( c = a + b)
     a = b
     b = c
+    
 
-print ( " Fibonacchui number series upto no ", x , " is = " ,c)
+
