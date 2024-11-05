@@ -11,7 +11,7 @@ def mul(a,b):
 
 def div(a,b):
     return a/b
-
+options = {1:"Add",2:"Sub",3:"Mul",4:"Div" , 5:"Quit"}
 print("************* WELCOME TO MY CALCULATOR *************")
 
 while True:
@@ -23,6 +23,9 @@ while True:
 
     choice = int(input("Enter your choice for operation :- "))
     
+    if choice not in options:
+        print(" Invalid choice")
+        continue
     if choice == 5:
         print("Thank you so much :) !!!.....")
         break
