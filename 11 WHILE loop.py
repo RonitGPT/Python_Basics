@@ -10,22 +10,22 @@ WHILE (CONDITION):
 '''
 
     # PROGRAM TO PRINT 1 TO N NUMBERS
-'''
+
 n = int(input("Enter your number n :- "))
 i=1
 while (i<=n):
     print (i)
     i += 1
-'''
+
 #---------------------------------------------------------------------------------------------------------------
 
     # ROGRAM TO PRINT N TO 1 NUMBERS
-'''
+
 n = int(input("Enter your number n :- "))
 i=n
 while (i>0):
     print(i)
     i -= 1
-'''
+
 #----------------------------------------------------------------------------------------------------------------
 
