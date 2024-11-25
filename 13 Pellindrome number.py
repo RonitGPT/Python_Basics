@@ -2,7 +2,6 @@
                         # PROGRAM TO FIND IF THE NUMBER IS PELLINDROME
 #==========================================================================================================
 
-
 x = int(input("Enter your number x = "))
 n=x
 sum=0
