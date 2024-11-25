@@ -1,4 +1,6 @@
-# PROGRAM TO FIND IF THE NUMBER IS PELLINDROME OR NOT (ONLY FOR 3 DIGITS)
+#==========================================================================================================
+                    # PROGRAM TO FIND IF THE NUMBER IS PELLINDROME OR NOT (ONLY FOR 3 DIGITS)
+#==========================================================================================================
 
 x = int (input("Enter the numbe 'x :- " ))
 n = x
